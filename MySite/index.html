@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Подключени jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="logo">Castway</div>
+                <div class="navigation" id="nav">
+                    <ul class="navigation__list">
+                        <li class="navigation__element"><a href="#" data-scroll="#home">Home</a></li>
+                        <li class="navigation__element"><a href="#" data-scroll="#episodes">Episodes</a></li>
+                        <li class="navigation__element"><a href="#" data-scroll="#about">About</a></li>
+                        <li class="navigation__element"><a href="#" data-scroll="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="burger">
+                    <div class="burger__item">
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </header>
+
+
+    <div class="container">
+        <div class="banner" id="home">
+            <div class="banner__photo">
+                <img id="image" src="img/baner-image.png" alt="">
+            </div>
+            <div class="banner__content">
+                <div class="baner__text">
+                    Take your podcast to the next level
+                </div>
+                <div class="baner__links">
+                    <p>Listen on</p>
+                    <ul>
+                        <li><a href="#"><img src="img/IMAGE.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/IMAGE (1).png" alt=""></a></li>
+                        <li><a href="#"><img src="img/IMAGE (2).png" alt=""></a></li>
+                        <li><a href="#"><img src="img/IMAGE (3).png" alt=""></a></li>
+                        <li><a href="#"><img src="img/IMAGE (4).png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="episodes" id="episodes">
+        
+        <div class="container">
+        
+            <div class="episodes__header">
+                <div class="episodes__title">
+                    Latest episodes
+                </div>
+                <div class="episodes__button">
+                    <a href="#" class="button">View all episodes</a>
+                </div>
+            </div>
+            <div class="episodes__cards">
+                <div class="episodes__card">
+                    <img src="img/Frame.png" alt="">
+                    <div class="card__content">
+                        <div class="content__title">
+                            Should you get outboard audio gear?
+                        </div>
+                        <div class="content__text">
+                            Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.
+                        </div>
+                        <a href="#" class="button">View Episode Details</a>
+                    </div>
+                </div>
+
+                <div class="episodes__card">
+                    <img src="img/Frame (1).png" alt="">
+                    <div class="card__content" id="card">
+                        <div class="content__title">
+                            Should you get outboard audio gear?
+                        </div>
+                        <div class="content__text" id="card__text">
+                            Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.
+                        </div>
+                        <a href="#" class="button">View Episode Details</a>
+                    </div>
+                </div>
+
+                <div class="episodes__card">
+                    <div class="card__texted">
+                        <img src="img/Frame (2).png" alt="">
+                        <div class="image__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                    </div>
+                    
+
+                    <div class="card__content">
+                        <div class="content__title">
+                            Should you get outboard audio gear?
+                        </div>
+                        <div class="content__text">
+                            Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.
+                        </div>
+                        <a href="#" class="button">View Episode Details</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="subscribe" id="about">
+        <div class="container">
+            <div class="subscribe__inner">
+                <div class="subscribe__text">
+                    <a href="#" class="button arrow"><img src="img/arrow.png" alt="стрелочка"></a>
+                    <p class="subscribe__upertext">
+                        Meet your host
+                    </p>
+                    <h3 class="subscribe__title">Jacob Paulaner</h3>
+                    <p class="subscribe__maintext">Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
+                    <p class="subscribe__maintext">He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+                </div>
+                <img src="img/IMAGESUBCRIBE.png" alt="GIGABOOK" class="subscribe__img">
+            </div>
+            <div class="subscribe__form">
+                <div class="subscribe__form__text">
+                    <p class="subscribe__upertext">
+                        Email Newsletter
+                    </p>
+                    <h3 class="subscribe__form__title">Subscribe for updates</h3>
+                </div>
+                <div class="subscribe__forms">
+                    <input class="input__field" type="text" placeholder="Name">
+                    <input class="input__field" type="text" placeholder="Email">
+                    <a href="#" class="button">Submit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews">
+        <div class="container">
+            <div class="wrapper">
+                <div class="review__card">
+                    <div class="raitng">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                    </div>
+                    <p class="review__text">
+                        I can’t recommend this podcast enough
+                    </p>
+                    <p class="revies__name">
+                        Betty Lacey
+                    </p>
+                </div>
+                <div class="review__card">
+                    <div class="raitng">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                    </div>
+                    <p class="review__text">
+                        Jacob is the best in the business
+                    </p>
+                    <p class="revies__name">
+                        Adam Driver
+                    </p>
+                </div>
+                <div class="review__card">
+                    <div class="raitng">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                    </div>
+                    <p class="review__text">
+                        A wealth of audio knowledge
+                    </p>
+                    <p class="revies__name">
+                        Marcus Brown
+                    </p>
+                </div>
+                <div class="review__card">
+                    <div class="raitng">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                    </div>
+                    <p class="review__text">
+                        Every episode is a gem!
+                    </p>
+                    <p class="revies__name">
+                        Jessica Knowl
+                    </p>
+                </div>
+                <div class="review__card">
+                    <div class="raitng">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                    </div>
+                    <p class="review__text">
+                        Whoa whoa, let me take some notes!
+                    </p>
+                    <p class="revies__name">
+                        Scott Adams
+                    </p>
+                </div>
+                <div class="review__card">
+                    <div class="raitng">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                        <img src="img/star.png" alt="">
+                    </div>
+                    <p class="review__text">
+                        I’ve upped my game considerably since I started listening
+                    </p>
+                    <p class="revies__name">
+                        Steven Blast
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="slider">
+        <div><img src="img/slider-1.jpg" alt=""></div>
+        <div><img src="img/slider-2.jpg" alt=""></div>
+        <div><img src="img/slider-3.jpg" alt=""></div>
+    </div>
+
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer_inner">
+                <div class="footer__logo">
+                    <div class="logo">Castway</div>
+                    <div class="logo__socials">
+                        <img src="img/inst.png" alt="">
+                        <img src="img/x.png" alt="">
+                        <img src="img/faceboke.png" alt="">
+                    </div>
+                </div>
+                <div class="footer__links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Episodes</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <ul>
+                        <li><a href="#">Style Guide</a></li>
+                        <li><a href="#">Instructions</a></li>
+                        <li><a href="#">Changelog</a></li>
+                        <li><a href="#">Credit</a></li>
+                        <li><a href="#">Powered by Webflow</a></li>
+                        <li><a href="#">Licenses</a></li>
+                    </ul>
+                </div>
+                <div class="baner__links">
+                    <ul>
+                        <li><a href="#"><img src="img/IMAGE.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/IMAGE (1).png" alt=""></a></li>
+                        <li><a href="#"><img src="img/IMAGE (2).png" alt=""></a></li>
+                        <li><a href="#"><img src="img/IMAGE (3).png" alt=""></a></li>
+                        <li><a href="#"><img src="img/IMAGE (4).png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> <!-- slick для слайдера -->
+    <script src="app.js"></script>
+</body>
+</html>
